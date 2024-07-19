@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=dedvice-width,initial-scale=1.0" />
+    <meta name="description" content="Это базовый курс по HTML">
+    <title>HTML course</title>
+    <style>
+      .header {
+          border-bottom: 2px solid grey;
+      }
+      .card{
+          background-color: #c3c3c3;
+          padding: 25px;
+          margin-bottom: 10px;
+      }
+  </style>
+ </head>
+  <body>
+    <img src="Арушка.jpg" width="300" alt="Здесь моя фотка">
+    <h1>Арууке</h1>
+    <p>Я учусь в <strong>Московском индустриальном колледже</strong>, также состою в проекте <em>ADWAKE</em>, где мы пишем статьи про маркетинговые ходы рахличных компаний </p>
+    <p><strong>Список социальных сетей:</strong></p>
+    <a href="https://t.me/acubigirl"  target="_blank">Telegram</a> |
+    <a href="https://wa.me/79014835496" target="_blank">WhatsApp</a> |
+    <a href="https://youtube.com/@aruu762?si=k-e6TEFSwjDFujgC" target="_blank">Youtube</a>
+
+    <br>
+    <h1>Img & links</h1>
+    <a href="https://google.com">Google</a>
+    <br>
+    <a href="https://google.com" target="_blank">Google in new tab</a>
+    <p>
+       <a href="01_text.html">Open texts in html</a>
+    </p>
+    <hr>
+    <h2> Img with URL</h2>
+    
+    <img src="https://i.pinimg.com/originals/fb/1e/7f/fb1e7f9db2540c3194a9179094a925e2.png"  width="150" alt="Здесь лежит картинка по HTML">
+    <h2>Local Img</h2>
+    <img src="html.png" width="150">
+
+    <br>
+    <h1>Lists</h1>
+    <ul type="circle">
+        <li>Элемент 1</li>
+        <li>Элемент 2</li>
+        <li>Элемент 3</li>
+        <li>Элемент 4</li>
+        <li>Элемент 5</li>
+    </ul>
+
+    <ol type="a">
+        <li>Элемент 1</li>
+        <li>Элемент 2</li>
+        <li>Элемент 3</li>
+        <li>Элемент 4</li>
+        <li>Элемент 5</li>
+    </ol>
+
+    <ul>
+        <li>Элемент 1</li>
+        <li>
+            Элемент 2</li>
+            <ol>
+                <li>Вложенный элемент </li>
+                <li>Элемент 2</li>
+                <li>Элемент 3</li>
+            </ol>
+        <li>
+            Элемент 3
+            <ul>
+                <li>Вложенный элемент </li>
+                <li>Элемент 2</li>
+                <li>Элемент 3</li>
+            </ul>
+        </li>
+        <li>Элемент 4</li>
+        <li>Элемент 5</li>
+    </ul>
+
+    <hr>
+
+    <h1>Мои хобби</h1>
+
+    <ol>
+        <li>Танцы</li>
+        <li>Программирование</li>
+        <li>Макияж</li>
+        <li>Рэп</li>
+    </ol>
+    <h1>Таблицы</h1>
+
+    <table width="300">
+        <thead>
+            <tr>
+                <th>Имя</th>
+                <th>Возраст</th>
+                <th>Работа</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Арууке</td>
+            <td>15</td>
+            <td>Блоггер, прграммист</td>
+        </tr>
+        <tr>
+            <td>Соня</td>
+            <td>16</td>
+            <td>Программист</td>
+        </tr>
+        <tr>
+            <td>Асема</td>
+            <td>15</td>
+            <td>Нет работы</td>
+        </tr>
+      </tbody>
+      <tfoot>
+
+      </tfoot>
+    </table>
+    <p>
+    <table width="400">
+        <thead>
+            <tr>
+            <th>Название работы</th>
+            <th>Должность</th>
+            <th>Период работы</th>
+            </tr>   
+        </thead>
+        <tr>
+            <tbody>
+                <td>Колледж</td>
+                <td>Студент</td>
+                <td>2023-2027</td>
+            <tr>
+                <td>Youtube</td>
+                <td>Блоггер</td>
+                <td>2024- по н.вр</td>
+            </tr>
+                <td>Какая то компания </td>
+                <td>Программист</td>
+                <td>2024- по н.вр</td>
+            <tr>
+                <td>ВБ</td>
+                <td>Программист</td>
+                <td>2024- по н.вр</td>
+            </tr>
+            </tbody>
+        </tbody>
+        </thead>
+    </table>
+</p>
+<br>
+<h1>Формы</h1>
+    <form action="">
+        <div>
+        <label for="text2">Текст</label>
+          <input type="text" id="text2" value="Текст по умолчанию" readonly>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Введите свой email">
+        </div>
+        <div>
+            <label for="Password">Пароль</label>
+            <input type="Password" id="Password" placeholder="Введите свой Пароль">>
+          </div>
+          <div>
+            <label for="number">Число</label>
+            <input type="number" id="number"  min="0" max="15">
+          </div>
+          <div>
+            <label for="Range">Range</label>
+            <input type="Range" id="Range"  min="0" max="10"
+            step="5">
+          </div>
+          <div>
+            <label for="Date">Дата</label>
+            <input type="Date" id="Date">
+          </div>
+          <div>
+            <label for="Color">Цвет</label>
+            <input type="Color" id="Color">
+          </div>
+          <p>
+
+          <div>
+            <label for="Message">Сообщение</label>
+            <br>
+            <textarea id="Message" cols="25" rows="5" placeholder="Ваш комментарий"></textarea>
+          </div>
+        </p>
+          <div>
+            <label for="sex">Ваш пол</label>
+            <select id="sex">
+                <option value="Male">Мужчина</option>
+                <option value="Female" selected >Женщина</option>
+            </select>
+          </div>
+          <p>
+          <div>
+            <label>Количество работ</label>
+            <br>
+            <input type="radio" name="work">1
+            <input type="radio" name="work">4
+            <input type="radio" name="work">6
+            <input type="radio" name="work">10+
+          </div>
+          </p>
+          <p>
+
+          <div>
+            <label>Количество работ</label>
+            <br>
+            <input type="Checkbox" name="food">Картошка
+            <input type="Checkbox" name="food">Хлеб
+            <input type="Checkbox" name="food">Молюски
+            <input type="Checkbox" name="food">Яблоки
+          </div>
+        </p>
+
+        <!-- <input type="submit" value="Отправить форму"> -->
+        <button type="submit">Отправить форму</button>
+        <br>
+        <h1>Связаться с вами</h1>
+        <div>
+            <lable for="text">Ваше имя</lable>
+            <br>
+            <input type="text" id="text" placeholder="Введите имя">
+        </div>
+        <div>
+            <lable for="email">Email</lable>
+            <br>
+            <input type="email" id="email" placeholder="Введите Email">
+        </div>
+        <div>
+            <lable for="message">Сообщение</lable>
+            <br>
+            <textarea id="message" cols="25" rows="5" placeholder="Ваш комментарий"></textarea>
+        </div>
+        <p>
+            <button type="submit">Отправить форму </button>
+        </p>
+        
+        
+        
+    </form>
+    <br>
+    <h1>Blocks</h1>
+    <p style="border: 2px solid blue">hi,guys jbhkjhkhubjbkgghjhgj
+        bjhl <span style="border: 2px solid purple">ihlkjnkhkjhk,hjkhl hjbkhlg,</span>.,jhjjhhlkuh kjkhk,khjkh
+    </p>
+
+    <p>This is idk</p>
+    <a href="#" style="border: 2px solid red">This is link</a>
+    <p>
+    <a href="#" style="border: 2px solid red">This is link2</a>
+</p>
+<div><a href="#" style="border: 2px solid red">This is link2</a></div>
+  <br>
+  <div id="header" class="header">
+    <h2>Site</h2>
+  
+    <ul>
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+    </ul>
+</div>
+<div id="navigation">
+  
+    <ul>
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+    </ul>
+</div>
+<hr>
+<div id="Block 1" class="card header">
+    <h3>Block 1</h3>
+    <p>nvjnjgnvslkjnvjsfkbnsnbksnf;jbng hbndjiekvndjknkdjvjnvfjvnkelkvjehr
+        dfjvnkjhlk <span class="color" #red>jfvfldjf;krjvhhvuv;erh;kbjfksdfjkvkdjhfhuih </span> i;djvk;dfjvnkjhlkjfvfldjfdfjvk
+        lkjfdvlkjfhvh;ohoia;oeriorghjfvnjnvadhvuhroia;didf;
+        dfvhdhfuinalkjdvjilvhjdvlh
+        kdfjkvnaluhfalierhirhiurhilv
+
+    </p>
+</div>
+<div id="Block 2" class="card">
+    <h3>Block 2</h3>
+    <p>nvjnjgnvslkjnvjsfkbnsnbksnf;jbng hbndjiekvndjknkdjvjnvfjvnkelkvjehr
+        dfjvnkjhlkjfvfldjf;krjvhhvuv;erh;kbjfksdfjkvkdjhfhuihi;djvk;dfjvnkjhlkjfvfldjfdfjvk
+        lkjfdvlkjfhvh;ohoia;oeriorghjfvnjnvadhvuhroia;didf;
+        dfvhdhfuinalkjdvjilvhjdvlh
+        kdfjkvnaluhfalierhirhiurhilv
+
+    </p>
+</div>
+<div id="footer">
+    <h4>Contact me</h4>
+    <ul>
+        <li>instagram</li>
+        <li>telegram</li>
+        <li>Youtube</li>
+    </ul>
+
+</div>
+</body>
+</html>
